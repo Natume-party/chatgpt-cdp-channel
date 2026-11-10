@@ -1,0 +1,37 @@
+{
+  "name": "chatgpt-cdp-channel",
+  "version": "1.0.0",
+  "description": "A local CDP channel for scripting ChatGPT Desktop: create chats, send messages, read replies, and watch DOM changes.",
+  "type": "module",
+  "bin": {
+    "chatgpt-cdp": "./chatgpt-cdp-channel.mjs",
+    "chatgpt-cdp-watch": "./chatgpt-cdp-watch.mjs",
+    "chatgpt-cdp-bridge": "./chatgpt-cdp-bridge.mjs"
+  },
+  "scripts": {
+    "start": "node ./chatgpt-cdp-channel.mjs start",
+    "status": "node ./chatgpt-cdp-channel.mjs status",
+    "doctor": "node ./chatgpt-cdp-channel.mjs doctor"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "keywords": [
+    "chatgpt",
+    "cdp",
+    "chrome-devtools-protocol",
+    "automation",
+    "electron",
+    "agent",
+    "desktop"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Natume-party/chatgpt-cdp-channel.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Natume-party/chatgpt-cdp-channel/issues"
+  },
+  "homepage": "https://github.com/Natume-party/chatgpt-cdp-channel#readme"
+}
